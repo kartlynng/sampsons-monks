@@ -58,8 +58,11 @@ Project 2: Sampson's Monk
 
 ## Part 3: A Simple Model of A Social Network
 - To further investigate the social dynamics underlying the monks’ network:
+
     a. I wrote a function by using **function(n_monks = 18)** to a random network of any size for comparison. #default = 18
+
     b. Inside the function, I created an adjacency matrix like SAMPLK2 by using **matrix()**.
+  
     c. I then assigned likes and dislikes at random by sampling values using the **sample()** function.
 
 ## Part 4: Comparison: Model vs Observations (Answer)
