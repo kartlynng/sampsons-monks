@@ -13,10 +13,15 @@ Project 2: Sampson's Monk
 # Methodology:
 **1. Data Preparation:**
 - Install and load 3 packages:
+
     a. **lda:** provides access to the Sampson's Monk dataset.
+
     b. **igraph:** used for creating and analyzing static network plots.
+  
         - Accepts an adjacency matrix!
+  
     c. **networkD3:** used to generate interactive network visualizations.
+  
         - Needs dataframs of nodes and edges, not an adjacency matrix!
 
 **2. Process:**
@@ -34,12 +39,12 @@ Project 2: Sampson's Monk
 2. Static Network Visualization: 
 - I created a static network plot using **igraph::plot.igraph()** to obtain a clear overall structure of the directed relationships & to identify patterns in connectivity.
 
-+ Reference: [text](https://igraph.org/r/html/1.2.5/plot.igraph.html)
++ Reference: [igraph](https://igraph.org/r/html/1.2.5/plot.igraph.html)
 
 3. Interactive Network Visualization: 
 - I used **networkD3::forceNetwork()**, which allows dynamic exploration of the network.
 
-+ Reference: [text](https://www.rdocumentation.org/packages/networkD3/versions/0.4.1/topics/forceNetwork)
++ Reference: [networkD3](https://www.rdocumentation.org/packages/networkD3/versions/0.4.1/topics/forceNetwork)
 
 ## Part 2: Summary Statistics
 1. Out-degree: rowSums()
